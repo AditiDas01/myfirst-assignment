@@ -77,4 +77,16 @@ box-shadow: cornflowerblue;
 .go-corona span{
     color: darkblue;
 }
+.footer span{
+    color: darkred;
+}
+.footer{
+    font-size: 36px;
+    font-family:'Luxurious Roman', cursive;
+    text-align: center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    
+}
 
