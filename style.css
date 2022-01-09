@@ -40,3 +40,41 @@ p{
     font-size: 55px;
     text-align: center;
 }
+.mission-item{
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;padding-left: 20px;
+    box-shadow: cornflowerblue;
+}
+.vission-item{
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;padding-left: 20px;
+    box-shadow: cornflowerblue;
+}
+.goals-item{
+    width: 40%;
+    margin-top: 5%;
+    box-decoration-break: clone;
+    box-shadow: cornflowerblue;
+}
+.mission-area{
+box-shadow: cornflowerblue;
+    
+}
+.flexible-container{
+box-shadow: cornflowerblue;
+}
+.limit{
+    font-size: 50px;
+}
+.corona{
+    text-align: center;
+}
+.corona span{
+    color: darkblue;
+}
+.go-corona span{
+    color: darkblue;
+}
+
