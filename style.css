@@ -1,3 +1,7 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
 .mission{
     font-size: 70px;
     border-left: 4px solid;
@@ -6,24 +10,42 @@
     font-family:'Luxurious Roman', cursive; 
     padding-left: 2%; 
 }
-p{
-    font-size: 25px;
-}
 .mission span{
     color: orange;
 }
+
+p{
+    font-size: 25px;
+}
 .half-width{
-    width:50%;
-    padding-left:2%;
+    width: 48%;
     padding-bottom: 2%;
+    display: inline-block;
 }
 .half-width img{
     width: 50%;
 }
-.flexible-container{
-    display: flex;
-    margin-bottom: 150px;
+.mission-area{
+    width: 100%;
 }
+.flexible-container{
+    width: 30%;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: whitesmoke 2px;
+}
+.flexible-container .mission-item{
+    width: 100%;
+}
+.flexible-container{
+    box-shadow: cornflowerblue;
+}
+.flexible-container img{
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+}
+
 .link-button{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
@@ -62,9 +84,7 @@ p{
 box-shadow: cornflowerblue;
     
 }
-.flexible-container{
-box-shadow: cornflowerblue;
-}
+
 .limit{
     font-size: 50px;
 }
@@ -81,12 +101,16 @@ box-shadow: cornflowerblue;
     color: darkred;
 }
 .footer{
-    font-size: 36px;
     font-family:'Luxurious Roman', cursive;
     text-align: center;
     padding: 0px;
     background-color: black;
-    color: white;
-    
+    color: white;   
+}
+.footer #title-small{
+    font-size: 12px;
+}
+.footer #title-big{
+    font-size: 20px;
 }
 
