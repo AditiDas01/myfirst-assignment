@@ -1,0 +1,42 @@
+.mission{
+    font-size: 70px;
+    border-left: 4px solid;
+    border-image: linear-gradient(45deg, rgb(245, 71, 2), tomato);
+    border-image-slice: 1;
+    font-family:'Luxurious Roman', cursive; 
+    padding-left: 2%; 
+}
+p{
+    font-size: 25px;
+}
+.mission span{
+    color: orange;
+}
+.half-width{
+    width:50%;
+    padding-left:2%;
+    padding-bottom: 2%;
+}
+.half-width img{
+    width: 50%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.mymission span{
+    color: tomato;
+    font-size: 55px;
+}
+.mymission{
+    font-size: 55px;
+    text-align: center;
+}
